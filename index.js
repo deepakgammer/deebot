@@ -76,7 +76,7 @@ bot.on('callback_query', async (ctx) => {
         doc.fontSize(12).text('Make your Idea Live !', { align: 'center' });
 
         doc.fillColor('#E6F0FA').rect(40, 120, 520, 400).fill();
-        doc.fillColor('#4A90E2').fontSize(16).text('🧾 Payment Receipt', 60, 130);
+        doc.fillColor('#4A90E2').fontSize(16).text('Payment Receipt', 60, 130);
 
         doc.fillColor('black').fontSize(12);
         let y = 165;
